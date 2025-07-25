@@ -1,0 +1,9 @@
+.header {
+  background-color: var(--badges);
+
+  padding: 26px 120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

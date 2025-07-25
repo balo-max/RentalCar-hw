@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  gap: 32px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.active {
+  color: var(--button-hover);
+}
+
+.link {
+  transition: ease transform 300ms;
+}
+
+.link:hover {
+  transform: scale(1.1);
+}
