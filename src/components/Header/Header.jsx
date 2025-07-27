@@ -4,10 +4,12 @@ import css from './Header.module.css';
 
 const Header = () => {
   return (
-    <header className={css.header}>
-      <Logo />
-      <HeaderNavigation />
-    </header>
+    <div className={css.headeContainer}>
+      <header className={css.header}>
+        <Logo />
+        <HeaderNavigation />
+      </header>
+    </div>
   );
 };
 
