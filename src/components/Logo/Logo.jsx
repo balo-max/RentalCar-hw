@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <Link className="" to="/">
       <svg className={css.logoIcon} width="104" height="16">
-        <use href="../../../public/sprite.svg#icon-Logo"></use>
+        <use href="/sprite.svg#icon-Logo"></use>
       </svg>
     </Link>
   );
