@@ -10,7 +10,6 @@ export const getCars = createAsyncThunk(
       const queryParams = new URLSearchParams(params).toString();
 
       const urlGetCarsWithSearchParams = `/cars?${queryParams}`;
-      console.log(urlGetCarsWithSearchParams);
 
       const response = await axios.get(urlGetCarsWithSearchParams);
 

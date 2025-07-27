@@ -71,7 +71,7 @@ const Filter = () => {
           width="16"
           height="16"
         >
-          <use href="../../../public/sprite.svg#icon-arrow-down"></use>
+          <use href="/sprite.svg#icon-arrow-down"></use>
         </svg>
       </div>
       {/* SELECT PRICE */}
@@ -99,7 +99,7 @@ const Filter = () => {
           width="16"
           height="16"
         >
-          <use href="../../../public/sprite.svg#icon-arrow-down"></use>
+          <use href="/sprite.svg#icon-arrow-down"></use>
         </svg>
       </div>
       {/* INPUT MILEAGE */}
