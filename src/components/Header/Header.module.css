@@ -1,6 +1,8 @@
 .header {
   background-color: var(--badges);
 
+  max-width: 1440px;
+
   padding: 26px 120px;
 
   display: flex;

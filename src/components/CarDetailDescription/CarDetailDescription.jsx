@@ -19,7 +19,7 @@ const CarDetailDescription = ({ car }) => {
         <div className={css.carLocationWrapper}>
           <div className={css.carLocation}>
             <svg aria-hidden="true" width="16" height="16">
-              <use href="/public/sprite.svg#icon-Location"></use>
+              <use href="/sprite.svg#icon-Location"></use>
             </svg>
             <p>
               {city} {country}
@@ -44,7 +44,7 @@ const CarDetailDescription = ({ car }) => {
               width="16"
               height="16"
             >
-              <use href="/public/sprite.svg#icon-check-circle"></use>
+              <use href="/sprite.svg#icon-check-circle"></use>
             </svg>
             {car.rentalConditions[0]}
           </li>
@@ -55,7 +55,7 @@ const CarDetailDescription = ({ car }) => {
               width="16"
               height="16"
             >
-              <use href="/public/sprite.svg#icon-check-circle"></use>
+              <use href="/sprite.svg#icon-check-circle"></use>
             </svg>
             {car.rentalConditions[2]}
           </li>
@@ -66,7 +66,7 @@ const CarDetailDescription = ({ car }) => {
               width="16"
               height="16"
             >
-              <use href="/public/sprite.svg#icon-check-circle"></use>
+              <use href="/sprite.svg#icon-check-circle"></use>
             </svg>
             {car.rentalConditions[1]}
           </li>
@@ -84,7 +84,7 @@ const CarDetailDescription = ({ car }) => {
               width="16"
               height="16"
             >
-              <use href="/public/sprite.svg#icon-calendar"></use>
+              <use href="/sprite.svg#icon-calendar"></use>
             </svg>
             Year: {car.year}
           </li>
@@ -95,7 +95,7 @@ const CarDetailDescription = ({ car }) => {
               width="16"
               height="16"
             >
-              <use href="/public/sprite.svg#icon-car"></use>
+              <use href="/sprite.svg#icon-car"></use>
             </svg>
             Type: {car.type}
           </li>
@@ -106,7 +106,7 @@ const CarDetailDescription = ({ car }) => {
               width="16"
               height="16"
             >
-              <use href="/public/sprite.svg#icon-fuel-pump"></use>
+              <use href="/sprite.svg#icon-fuel-pump"></use>
             </svg>
             Fuel Consumption: {car.fuelConsumption}
           </li>
@@ -117,7 +117,7 @@ const CarDetailDescription = ({ car }) => {
               width="16"
               height="16"
             >
-              <use href="/public/sprite.svg#icon-gear"></use>
+              <use href="/sprite.svg#icon-gear"></use>
             </svg>
             Engine Size: {car.engineSize}
           </li>
@@ -136,7 +136,7 @@ const CarDetailDescription = ({ car }) => {
                 width="16"
                 height="16"
               >
-                <use href="/public/sprite.svg#icon-check-circle"></use>
+                <use href="/sprite.svg#icon-check-circle"></use>
               </svg>
               {acs}
             </li>

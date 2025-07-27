@@ -32,7 +32,7 @@ const CarCard = ({ car }) => {
             className={css.favoriteBtn}
           >
             <svg className={css.iconFavorite} width="16" height="16">
-              <use href="../../../public/sprite.svg#icon-favorite"></use>
+              <use href="/sprite.svg#icon-favorite"></use>
             </svg>
           </button>
         ) : (
@@ -42,7 +42,7 @@ const CarCard = ({ car }) => {
             className={css.favoriteBtn}
           >
             <svg className={css.iconAddFavorite} width="16" height="16">
-              <use href="../../../public/sprite.svg#icon-add-favorite"></use>
+              <use href="/sprite.svg#icon-add-favorite"></use>
             </svg>
           </button>
         )}
