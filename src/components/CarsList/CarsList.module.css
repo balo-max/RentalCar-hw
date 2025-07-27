@@ -1,0 +1,15 @@
+.carsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 48px 32px;
+
+  margin-bottom: 80px;
+}
+
+.carsNotFound {
+  text-align: center;
+  margin: 0 auto;
+}

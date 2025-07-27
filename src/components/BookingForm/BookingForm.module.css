@@ -1,0 +1,75 @@
+.carFormWrapper {
+  border: 1px solid var(--gray-light);
+  border-radius: 10px;
+  padding: 32px;
+
+  width: 575px;
+}
+
+.formTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+
+  margin-bottom: 8px;
+}
+
+.formText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--gray);
+
+  margin-bottom: 24px;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formInput {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 20px;
+
+  background: var(--inputs);
+}
+
+.formComment {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 20px 56px 20px;
+
+  background: var(--inputs);
+  margin-bottom: 8px;
+}
+
+.formBtnSend {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 51px;
+  width: 156px;
+  background-color: var(--button);
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--white);
+
+  margin-left: auto;
+  margin-right: auto;
+
+  transition: ease background-color 300ms;
+}
+
+.formBtnSend:hover {
+  background-color: var(--button-hover);
+}
+
+.errorMessage {
+  padding-left: 10px;
+  font-size: 12px;
+  color: red;
+}

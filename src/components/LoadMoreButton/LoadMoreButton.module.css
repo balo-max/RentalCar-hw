@@ -1,0 +1,21 @@
+.btnWrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loadMoreBtn {
+  display: block;
+  background-color: transparent;
+  border: 1px solid var(--button);
+  border-radius: 12px;
+  padding: 12px 51px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  transition: ease border 300ms;
+}
+
+.loadMoreBtn:hover {
+  border: 1px solid var(--button-hover);
+}

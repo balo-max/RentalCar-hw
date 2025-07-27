@@ -1,0 +1,94 @@
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-bottom: 12px;
+}
+
+.TitelIdText {
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--gray);
+}
+
+@media only screen and (min-width: 1500px) {
+  .titleWrapper {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 16px;
+
+    margin-bottom: 8px;
+  }
+}
+
+.TitleCar {
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.TitleCarSpan {
+  font-size: 24px;
+  line-height: 1.33;
+
+  color: var(--main);
+}
+
+.carLocationWrapper {
+  display: flex;
+  gap: 16px;
+
+  line-height: 1.25;
+
+  margin-bottom: 16px;
+}
+
+.carLocation {
+  display: flex;
+  gap: 4px;
+
+  line-height: 1.25;
+}
+
+.descWrapper {
+  margin-bottom: 68px;
+}
+
+.carPrice {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  color: var(--button);
+
+  margin-bottom: 32px;
+}
+
+.carDesc {
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.descList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin-bottom: 110px;
+}
+
+.carSubTitle {
+  font-size: 20px;
+  line-height: 1.2;
+
+  margin-bottom: 20px;
+}
+
+.iconCheck {
+  padding-right: 8px;
+}
+
+.descListAccessories {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

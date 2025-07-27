@@ -1,0 +1,15 @@
+.notFoundWrapper {
+  font-size: 30px;
+  text-align: center;
+}
+
+.notFoundLink {
+  color: var(--button);
+  text-decoration: underline;
+
+  transition: ease color 300ms;
+}
+
+.notFoundLink:hover {
+  color: var(--button-hover);
+}

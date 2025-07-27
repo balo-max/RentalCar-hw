@@ -1,0 +1,92 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 276px;
+}
+
+.leftWrapper {
+  position: relative;
+}
+
+.favoriteBtn {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+
+  background: inherit;
+  border: none;
+}
+.iconFavorite {
+  fill: var(--button);
+}
+
+.cardImage {
+  border-radius: 14px;
+
+  margin-bottom: 16px;
+}
+
+.cardTitleCar {
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.cardTitleCarSpan {
+  color: var(--button);
+}
+
+.cardTitleWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 12px;
+
+  margin-bottom: 8px;
+}
+
+.cardPrice {
+  font-weight: 600;
+  line-height: 1.25;
+}
+.cardDiscriptionWrapper {
+  margin-bottom: 28px;
+}
+
+.cardDiscriptionList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+
+  margin-bottom: 4px;
+}
+
+.cardDiscriptionItem {
+  font-size: 12px;
+  line-height: 1.33;
+  color: var(--gray);
+}
+
+.cardDiscriptionItem:not(:last-child) {
+  border-right: 1px solid var(--gray-light);
+  padding-right: 6px;
+}
+
+.linkReadMore {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--white);
+
+  border-radius: 12px;
+  padding: 12px 96px;
+
+  background-color: var(--button);
+  transition: ease background-color 300ms;
+}
+
+.linkReadMore:hover {
+  background-color: var(--button-hover);
+}

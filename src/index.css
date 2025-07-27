@@ -1,7 +1,7 @@
 :root {
   font-family: 'Manrope', 'Inter', sans-serif;
 
-  line-height: 1.55;
+  line-height: 1.25;
   font-weight: 400;
   font-size: 16px;
 
@@ -69,4 +69,29 @@ select,
 input,
 button {
   outline: none;
+}
+
+/* react-datepicker custom styles*/
+
+.react-datepicker-popper .react-datepicker {
+  border: none;
+}
+
+.react-datepicker .react-datepicker__month-container {
+  border: 1px solid var(--button);
+
+  border-radius: 12px;
+}
+.react-datepicker .react-datepicker__header {
+  background: transparent;
+  border-bottom: 1px solid var(--button);
+}
+
+.react-datepicker__navigation .react-datepicker__navigation-icon::before {
+  border-color: var(--button);
+}
+
+.react-datepicker__month .react-datepicker__day--selected {
+  border-radius: 32px;
+  background-color: var(--button);
 }

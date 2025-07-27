@@ -7,25 +7,14 @@ export const getCars = createAsyncThunk(
   'cars/getCars',
   async (params, thunkAPI) => {
     try {
-      const { page, searchQuery, searchedIngredient, searchedCategory } =
-        params;
+      const queryParams = new URLSearchParams(params).toString();
 
-      const queryParams = new URLSearchParams();
-      queryParams.append('page', page);
+      const urlGetCarsWithSearchParams = `/cars?${queryParams}`;
+      console.log(urlGetCarsWithSearchParams);
 
-      if (searchQuery) queryParams.append('search', searchQuery);
-      if (searchedIngredient)
-        queryParams.append('ingredient', searchedIngredient);
-      if (searchedCategory) queryParams.append('category', searchedCategory);
+      const response = await axios.get(urlGetCarsWithSearchParams);
 
-      const urlForCars = `/cars?${queryParams.toString()}`;
-
-      const { data } = await axios.get(urlForCars);
-
-      return {
-        ...data, // data, totalItems, page, etc.
-        append: page > 1, // додаємо флаг для редюсера
-      };
+      return response.data;
     } catch {
       return thunkAPI.rejectWithValue('Pls try reloading the page.');
     }
@@ -34,10 +23,10 @@ export const getCars = createAsyncThunk(
 
 export const getCarsById = createAsyncThunk(
   'cars/getCarsById',
-  async (carsId, thunkAPI) => {
+  async (carId, thunkAPI) => {
     try {
-      const { data } = await axios.get(`/cars/${carsId}`);
-      return data;
+      const response = await axios.get(`/cars/${carId}`);
+      return response.data;
     } catch {
       return thunkAPI.rejectWithValue('Pls try reloading the page.');
     }

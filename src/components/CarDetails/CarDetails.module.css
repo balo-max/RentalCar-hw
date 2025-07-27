@@ -1,0 +1,11 @@
+.carDetailWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+}
+
+.carImage {
+  border-radius: 19px;
+
+  margin-bottom: 40px;
+}
